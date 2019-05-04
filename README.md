@@ -19,6 +19,9 @@ Step1: Add it in your root build.gradle at the end of repositories:
 
     
 Step 2. Add the dependency  
+[![GitHub release](https://img.shields.io/github/release/sanif/HyperLinkTextView.svg)](https://github.com/sanif/HyperLinkTextView/releases/latest)
+
+Note: replace Tag with latest version
 
 	dependencies {
 	        implementation 'com.github.sanif:HyperLinkTextView:Tag'
