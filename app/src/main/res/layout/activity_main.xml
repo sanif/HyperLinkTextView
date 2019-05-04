@@ -50,4 +50,13 @@
             app:linkType="copy"
     />
 
+    <in.sanifss.hyperlinktextview.HyperLinkTextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvDynamicText"
+            app:linkType="copy"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+    />
+
 </LinearLayout>

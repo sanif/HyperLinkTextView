@@ -104,6 +104,11 @@ class HyperLinkTextView : TextView {
         }
     }
 
+    fun setCustomText(text: CharSequence?) {
+        this.text = text
+        update()
+    }
+
     private fun update() {
         var text = text;
         text?.let {
