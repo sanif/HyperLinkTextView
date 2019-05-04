@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".demo.MainActivity">
+
+    <in.sanifss.hyperlinktextview.HyperLinkTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="http://google.com"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+            app:linkColor="@color/colorAccent"
+            app:linkType="web"
+    />
+    <in.sanifss.hyperlinktextview.HyperLinkTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9141291422"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+            app:linkColor="@color/colorAccent"
+            app:linkType="telephone"
+    />
+
+    <in.sanifss.hyperlinktextview.HyperLinkTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email: sanifss@gmail.com"
+            app:linkStartOffset="7"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+            app:linkColor="@color/colorAccent"
+            app:linkType="email"
+    />
+
+    <in.sanifss.hyperlinktextview.HyperLinkTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copy me!!!"
+            app:underlined="false"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+            app:linkColor="@color/colorPrimaryDark"
+            app:linkType="copy"
+    />
+
+</LinearLayout>
